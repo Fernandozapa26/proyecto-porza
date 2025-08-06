@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*para quitar los puntos */
+    list-style: none;
+    font-family: sans-serif;
+}
+
+/* Estilos para el encabezado */
+header {
+    position: relative;
+    margin: auto; /*centrar*/
+    width: 1000px;
+    height: 120px;
+    background: #06f7ef;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 48px;
+    background: #4907e4;
+}
+
+/* Estilos para la sección superior */
+#top {
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 192px;
+    background: #07e4ce;
+}
+
+/* Estilos para las secciones */
+section {
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 453px;
+    background: #aaa;
+}
+
+/* Estilos para el pie de página */
+footer {
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 70px;
+    background: #4907e4;
+}
+
+/* Estilos para el logotipo */
+#logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: 60px;
+    font-family: 'kaushan Script', cursive;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    background: #ccc;
+}
+
+/* Estilos para los íconos de redes sociales */
+.redes {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background: #ccc;
+    border-radius: 100%;
+    top: 42px;
+}
+
+#icono1 {
+    right: 120px;
+}
+
+#icono2 {
+    right: 71px;
+}
+
+#icono3 {
+    right: 19px;
+}
+
+/* Estilos para los botones en la sección superior */
+.botones {
+    position: auto; /* Esta propiedad no es válida en CSS */
+    float: left;
+    width: 196px;
+    height: 48px;
+    background: #20c2eb;
+    margin: 0 2px;
+}
+
+#top ul {
+    width: 1010px;
+    height: 192px;
+    background: rgba(190, 210, 6, 0.5);
+}
+
+#top ul li {
+    float: left;
+    width: 326px;
+    height: 192px;
+    background: rgb(131, 237, 223);
+    margin-right: 10px;
+}
+
+/* Estilos para la barra lateral izquierda */
+aside#izq {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    background: #d8ec96;
+    list-style: square;
+    list-style-position: inside;
+}
+
+/* Estilos para los artículos */
+article {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 600px;
+    height: 453px;
+    background: rgb(188, 248, 8);
+}
+
+/* Estilos para la barra lateral derecha */
+aside#der {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    background: #dae908;
+}
+
+/* Estilos para el título en la barra lateral derecha */
+aside#der h1 {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background-color: #06f7ef;
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+/* Estilos para los inputs en la barra lateral derecha */
+aside#der input {
+    padding: 10px;
+    margin: 5px;
+    width: 170px;
+}
+
+aside#der input[type="password"] {
+    background: #fff url('usuario.png') no-repeat right;
+    background-size: contain;
+}
+
+aside#der input[type="text"] {
+    background: #fff url('usuario.png') no-repeat right;
+    background-size: contain;
+}
